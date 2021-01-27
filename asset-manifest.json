@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/mohammadawwad.github.io/static/css/main.558370f2.chunk.css",
-    "main.js": "/mohammadawwad.github.io/static/js/main.a122ef51.chunk.js",
-    "main.js.map": "/mohammadawwad.github.io/static/js/main.a122ef51.chunk.js.map",
+    "main.css": "/mohammadawwad.github.io/static/css/main.4f29a376.chunk.css",
+    "main.js": "/mohammadawwad.github.io/static/js/main.553b77bc.chunk.js",
+    "main.js.map": "/mohammadawwad.github.io/static/js/main.553b77bc.chunk.js.map",
     "runtime-main.js": "/mohammadawwad.github.io/static/js/runtime-main.893c438c.js",
     "runtime-main.js.map": "/mohammadawwad.github.io/static/js/runtime-main.893c438c.js.map",
     "static/js/2.b92c2dcd.chunk.js": "/mohammadawwad.github.io/static/js/2.b92c2dcd.chunk.js",
     "static/js/2.b92c2dcd.chunk.js.map": "/mohammadawwad.github.io/static/js/2.b92c2dcd.chunk.js.map",
     "index.html": "/mohammadawwad.github.io/index.html",
-    "static/css/main.558370f2.chunk.css.map": "/mohammadawwad.github.io/static/css/main.558370f2.chunk.css.map",
+    "static/css/main.4f29a376.chunk.css.map": "/mohammadawwad.github.io/static/css/main.4f29a376.chunk.css.map",
     "static/js/2.b92c2dcd.chunk.js.LICENSE.txt": "/mohammadawwad.github.io/static/js/2.b92c2dcd.chunk.js.LICENSE.txt",
     "static/media/headshot.93181e9a.png": "/mohammadawwad.github.io/static/media/headshot.93181e9a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.893c438c.js",
     "static/js/2.b92c2dcd.chunk.js",
-    "static/css/main.558370f2.chunk.css",
-    "static/js/main.a122ef51.chunk.js"
+    "static/css/main.4f29a376.chunk.css",
+    "static/js/main.553b77bc.chunk.js"
   ]
 }
