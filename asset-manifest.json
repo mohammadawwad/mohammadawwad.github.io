@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/mohammadawwad.github.io/static/css/main.4f29a376.chunk.css",
-    "main.js": "/mohammadawwad.github.io/static/js/main.f719c068.chunk.js",
-    "main.js.map": "/mohammadawwad.github.io/static/js/main.f719c068.chunk.js.map",
+    "main.css": "/mohammadawwad.github.io/static/css/main.db487bbc.chunk.css",
+    "main.js": "/mohammadawwad.github.io/static/js/main.2007b346.chunk.js",
+    "main.js.map": "/mohammadawwad.github.io/static/js/main.2007b346.chunk.js.map",
     "runtime-main.js": "/mohammadawwad.github.io/static/js/runtime-main.893c438c.js",
     "runtime-main.js.map": "/mohammadawwad.github.io/static/js/runtime-main.893c438c.js.map",
     "static/js/2.b92c2dcd.chunk.js": "/mohammadawwad.github.io/static/js/2.b92c2dcd.chunk.js",
     "static/js/2.b92c2dcd.chunk.js.map": "/mohammadawwad.github.io/static/js/2.b92c2dcd.chunk.js.map",
     "index.html": "/mohammadawwad.github.io/index.html",
-    "static/css/main.4f29a376.chunk.css.map": "/mohammadawwad.github.io/static/css/main.4f29a376.chunk.css.map",
+    "static/css/main.db487bbc.chunk.css.map": "/mohammadawwad.github.io/static/css/main.db487bbc.chunk.css.map",
     "static/js/2.b92c2dcd.chunk.js.LICENSE.txt": "/mohammadawwad.github.io/static/js/2.b92c2dcd.chunk.js.LICENSE.txt",
-    "static/media/headshot.93181e9a.png": "/mohammadawwad.github.io/static/media/headshot.93181e9a.png"
+    "static/media/frcLogo.b4c3b6fa.png": "/mohammadawwad.github.io/static/media/frcLogo.b4c3b6fa.png",
+    "static/media/headshot.93181e9a.png": "/mohammadawwad.github.io/static/media/headshot.93181e9a.png",
+    "static/media/stylishTile.0c926a94.png": "/mohammadawwad.github.io/static/media/stylishTile.0c926a94.png",
+    "static/media/vexVR.3e47b043.png": "/mohammadawwad.github.io/static/media/vexVR.3e47b043.png"
   },
   "entrypoints": [
     "static/js/runtime-main.893c438c.js",
     "static/js/2.b92c2dcd.chunk.js",
-    "static/css/main.4f29a376.chunk.css",
-    "static/js/main.f719c068.chunk.js"
+    "static/css/main.db487bbc.chunk.css",
+    "static/js/main.2007b346.chunk.js"
   ]
 }
