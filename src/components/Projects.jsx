@@ -1,14 +1,13 @@
 import React from "react";
 import headshot from '../imgs/headshot.png';
 import shopping1 from '../imgs/shoppingApp-1.png';
-import shopping2 from '../imgs/shoppingApp-2.png';
 import shopping3 from '../imgs/shoppingApp-3.png';
-import colourJump from '../vids/Colour Jump.mp4';
+import robotics from '../imgs/robotics.png';
+
 
 function Projects() {
   return (
-    <div className="projects">
-      <div class="container pt-5">
+    <div id="container">
         <div class="row align-items-center my-5">
           <div class="col-lg-7">
             <img
@@ -55,7 +54,7 @@ function Projects() {
       </div>
 
           {/**Projects*/}
-          <div class="row  my-5">
+          <div class="row  my-5 pt-3">
             <div class="col ">
               <h2 class="font-weight-bold">My Projects</h2>
             </div>
@@ -63,9 +62,9 @@ function Projects() {
 
           {/**Shopping  Cart*/}
           <div class="row">
-            <div class="col">
+            <div class="col mt-5">
               <h4 class="font-weight-normal text-left"><a href="https://mohammadawwad.github.io/Shopping-List/" target="_blank">Shopping Cart Application</a></h4>
-              <h5 class="font-weight-normal text-left">Decmber 2020 - Jan Present</h5>
+              <h5 class="font-weight-normal text-left">December 2020 - Jan Present</h5>
             <img
               id="regular-img"
               class="img-fluid rounded  float-left "
@@ -78,24 +77,19 @@ function Projects() {
               src={shopping1}
               alt=""
             />
-            
-            <img
-              id="shopping-lg-img"
-              class="img-fluid rounded  float-left"
-              src={shopping2}
-              alt=""
-            />
+            <iframe class="float-left" width="560" height="315" src="https://www.youtube.com/embed/xl8iBhbuLDU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
           </div>
-            <div class="col">
+            <div class="col pt-3 mt-5">
               <p>
                 Created Shopping List application using React, Puppeteer, and Node.js
                 The app was created to make shopping easier and allows you to add any item
                 you want and change its quantity. It also allows you to print all your data 
-                in an organised table with the click of one button. The application is still 
-                in progress and the next feature that will be available with give you an estimated 
-                value of what it will cost you. The app also has a note feature incase you want to 
-                keep things in mind such as what store you want to shop from. I learned a lot while 
-                creating this app such as state and async functons and how to scrape data from 
+                in an organized table with the click of one button. The application is still 
+                in progress and the next feature that will be available will give you an estimated 
+                value of what it will cost you for everything in the cart. The app also has a note feature incase you want to 
+                specify and keep things in mind such as what store you want to shop from. I learned a lot while 
+                creating this app such as state and async functions and how to scrape data from 
                 websites.
               </p>
             </div>
@@ -113,13 +107,35 @@ function Projects() {
               alt=""
             />
             </div>
-            <div class="col">
+            <div class="col mt-5">
               <p>
                 This site was created to showcase my experience and projects that 
                 I have created. I also learned a lot developing it, some of the main things 
                 I learned was bootstrap along with JSX and how to use them along with HTML, CSS, 
-                and JavaScript. This project was definetly fun because I relised how much work and effort
+                and JavaScript. This project was definitely fun because I realise how much work and effort
                 I put towards my projects.
+              </p>
+            </div>
+          </div>
+
+
+          {/**Hephaestus Website*/}
+          <div class="row pt-3 mt-5">
+            <div class="col">
+              <h4 class="font-weight-normal text-left"><a href="http://www.hephaestus6390.com/">Hephaestus Website</a></h4>
+              <h5 class="font-weight-normal text-left">Dec 2020 - Jan 2021</h5>
+              <img
+              class="img-fluid rounded mb-4 float-left"
+              src={robotics}
+              alt=""
+            />
+            </div>
+            <div class="col mt-5">
+              <p>
+              In charge of remodeling website design and updating all sorts of information images and design ideas. 
+              Had to work with others and point out necessary changes to be made and how 
+              to go about them. Working on the Robotics teams website I learned a lot about 
+              how to create and maintain websites using Weebly.
               </p>
             </div>
           </div>
@@ -129,46 +145,42 @@ function Projects() {
             <div class="col">
               <h4 class="font-weight-normal text-left">Robotic Robot</h4>
               <h5 class="font-weight-normal text-left">2018 - Present</h5>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/eHRTgEbxUA0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="float-left" width="560" height="315" src="https://www.youtube.com/embed/eHRTgEbxUA0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="col">
+            <div class="col mt-5">
               <p>
                 As Lead programmer on the robotics team I am responsible 
                 for managing what other programmers work on creating tasks
-                and implementing new fetures. This year i implemented the scource
-                countrol with Git and Github. This meant the team can effectivly program 
+                and implementing new features. This year i implemented the source
+                control with Git and Github. This meant the team can effectively program 
                 and share files. With Java I have been able to program a number of things on 
-                the robot such as Potential Integral Dirivitive (PID) autos for the robot 
-                which allows for proscision and accuracy along side vission prossecing for locking on targets
-                . I also have prorammed Motors, Encoders, Colour Sensors, Gyros, nuematics, and LEDS. 
-                These all would be programmer to allow our robots toramming a turret and the First
-                Swearve Drive robot which allows for multi-directional movement.
+                the robot such as Potential Integral Derivative (PID) autos for the robot 
+                which allows for precision and accuracy along side vision possessing for locking on targets
+                . I also have programmed Motors, Encoders, Colour Sensors, Gyros, pneumatics, and LEDS. 
+                These all would be programmed to allow our robots to do what they are fully capable of
+                Our current goals are to program a turret and the First
+                Swerve Drive robot in BC which allows for multi-directional movement.
               </p>
             </div>
           </div>
 
           {/**Colour Switch*/}
-          <div class="row pt-3 mt-5">
+          <div class="row pt-3">
             <div class="col">
               <h4 class="font-weight-normal text-left">Colour Jump App</h4>
               <h5 class="font-weight-normal text-left">November 2019 - Jully 2020</h5>
               
-              <video
-                width="550"
-                controls
-              >
-                <source src={colourJump}/>
-              </video>
+              <iframe class="float-left" width="560" height="315" src="https://www.youtube.com/embed/diqS277vurk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="col">
+            <div class="col mt-5">
               <p>
                 One of my favorite projects I have created was Colour Jump,
                 this is a mobile game created with Unity and C#. The goal of the 
                 game is to make it to the finish line without loosing, you loose if 
-                the colour of you hits a moving object that isnt the same colour as the 
+                the colour of you hits a moving object that isn't the same colour as the 
                 player. I had a lot of phone creating this app it was supper complex
                 as I added levels to unlock, a options bar that allows you to change volume, change levels,
-                buy new charachters and much more using the points you have earned playing 
+                buy new characters and much more using the points you have earned playing 
                 the game.
               </p>
             </div>
@@ -176,32 +188,31 @@ function Projects() {
          
 
           {/**Dodge the blocks*/}
-          <div class="row pt-3 mt-5">
+          <div class="row pt-3">
             <div class="col">
               <h4 class="font-weight-normal text-left">Dodge The Blocks App</h4>
               <h5 class="font-weight-normal text-left">December 2018 - March 2019</h5>
               
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/svUxQG-mqC4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe class="float-left" width="560" height="315" src="https://www.youtube.com/embed/svUxQG-mqC4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               
             </div>
-            <div class="col">
+            <div class="col mt-5">
               <p>
-                Dodge The Blocks was one of my first games developed using Unity and C# 
+                Dodge The Blocks was one of my first games developed using Unity and C#, 
                 I am very proud of what I developed. The game is simple and has two controls
-                Right and Left. The game consistes of a cubed played that constantly is movingforward and 
+                Right and Left. The game consists of a cubed played that is constantly moving forward and 
                 its speed increases over time. The goal of the game was to make it to the finish line without 
-                hitting any of the obstacles in your way. Unfortunatly since it was an old game I developed 
-                in my early stages of programming it got corupted and I do not have any examples of what it 
+                hitting any of the obstacles in your way. Unfortunately since it was an old game I developed 
+                in my early stages of programming it got corrupted and I do not have any footage of what it 
                 looked like. But I have found an example of the game since the idea of the game
-                got really popular. I am extremly proud of this game since it tought me so much about 
-                the core fundementals of programming.
+                got really popular. I am extremely proud of this game since it taught me so much about 
+                the core fundamentals of programming.
               </p>
             </div>
           </div>
 
 
       </div>
-    </div>
   );
 }
 

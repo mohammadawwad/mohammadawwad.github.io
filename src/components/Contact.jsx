@@ -1,10 +1,10 @@
 import React from "react";
 import headshot from '../imgs/headshot.png';
+import resume from '../imgs/HootsuitePic.png';
 
 function Contact() {
   return (
-    <div className="contact">
-      <div class="container pt-5">
+    <div id="container">
         <div class="row align-items-center my-5">
           <div class="col-lg-7">
             <img
@@ -46,10 +46,45 @@ function Contact() {
               | linkedIn
             </a>
           </div>
-        
-        </div>
+    
+        </div>    
+
+          {/**Contact : Phone*/}
+          <div class="row  my-2 pt-3 ">
+            <div class="col">
+              <h4 class="font-weight-bold text-center">Phone: (778)-751-4320</h4>
+            </div>
+          </div>
+
+          {/**Contact : Email*/}
+          <div class="row  my-2 pt-3 ">
+            <div class="col">
+              <h4 class="font-weight-bold text-center">Email: <a href="mailto:mohd-awwad@homail.com">mohd-awwad@hotmail.com</a></h4>
+            </div>
+          </div>
+          
+
+          {/**Resume*/}
+          <div class="row  my-2 pt-3 ">
+            <div class="col ">
+              <h2 class="font-weight-bold">Resume</h2>
+            </div>
+          </div>
+
+          {/**Resume picture*/}
+          <div class="row">
+            <div class="col mt-1 mb-3">
+               <img
+                class="img-fluid rounded  float-center "
+                src={resume}
+                alt=""
+              />
+       
+            </div>
+          </div>
+
+
       </div>
-    </div>
   );
 }
 
