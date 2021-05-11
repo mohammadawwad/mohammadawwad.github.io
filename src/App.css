@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  width: 100%;
 }
 
 .App-logo {
@@ -77,21 +78,194 @@ body{
 }
 
 
-.footer{
-    height: 60px;
+footer{
+    height: 120px;
     background-color: black;
-    position: absolute;
-    left: 0;
-    right: 0;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
     width: 100%;
-    
 }
 
-@media screen and (max-width: 600px){
-  #container{
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-top: 20%;
-   }
+.button{
+  cursor: pointer;
+  text-align: center;
+}
+
+
+
+/*Bio Buttons Icons*/
+.buttons-menu ul{
+  position: absolute;
+  margin-top: 5%;
+  left: 50%;
+  padding:0;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.buttons-menu ul li{
+  list-style: none;
+  margin: 0 10px;
+}
+
+.buttons-menu ul li .fab{
+  transition: .6s;
+  color: #000;
+}
+.buttons-menu ul li .fa:hover {
+  color: #fff;
+}
+.buttons-menu ul li a{
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  text-align: center;
+  transition: .6s;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
+.buttons-menu ul li a:hover{
+  transform: translate(0, -10px);
+}
+.buttons-menu ul li:nth-child(1) a:hover{
+  background-color: rgb(0, 0, 0);
+}
+.buttons-menu ul li:nth-child(2) a:hover {
+  background-color: rgb(0, 0, 0);
+}
+.buttons-menu ul li:nth-child(3) a:hover{
+  background-color: rgb(0, 0, 0);
+}
+.buttons-menu ul li:nth-child(4) a:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.svg{
+  margin:0;
+}
+/*Social Media Icons*/
+.social-menu ul{
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  padding:0;
+  margin:0;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.social-menu ul li{
+  list-style: none;
+  margin: 0 15px;
+}
+
+.social-menu ul li .fab{
+  font-size: 30px;
+  line-height: 60px;
+  transition:.6s;
+  color: #000;
+}
+.social-menu ul li .fa:hover {
+  color: #fff;
+}
+.social-menu ul li a{
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  text-align: center;
+  transition: .6s;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
+.social-menu ul li a:hover{
+  transform: translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover{
+  background-color: rgb(0, 0, 0);
+}
+.social-menu ul li:nth-child(2) a:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+
+.Github{
+  color:#6f42c1;
+  height: 100%;
+  inline-size: 90%;
+  margin-bottom: 10px;
+}
+
+.LinkedIn{
+  height: 100%;
+  inline-size: 70%;
+  margin-bottom: 10px;
+}
+
+/*Contact Icons*/
+.contact-menu ul{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  padding:0;
+  margin:0;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.contact-menu ul li{
+  list-style: none;
+  margin: 0 15px;
+}
+
+.contact-menu ul li .fab{
+  font-size: 30px;
+  line-height: 60px;
+  transition:.6s;
+  color: #000;
+}
+.contact-menu ul li .fa:hover {
+  color: #fff;
+}
+.contact-menu ul li a{
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  text-align: center;
+  transition: .6s;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
+.contact-menu ul li a:hover{
+  transform: translate(0, -10px);
+}
+.contact-menu ul li:nth-child(1) a:hover{
+  background-color: rgb(0, 0, 0);
+}
+.contact-menu ul li:nth-child(2) a:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.Email{
+  height: 100%;
+  inline-size: 90%;
+  margin-bottom: 10px;
+}
+
+.Phone{
+  color: rgb(1, 182, 1);
+  height: 100%;
+  inline-size: 70%;
+  margin-bottom: 10px;
+}
+
+.siteLink{
+  color:#61dafb;
 }

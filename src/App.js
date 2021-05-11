@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Navigation, Footer, Projects, About, Contact } from "./components";
 import './App.css';
+import './App-Mobile.css'
+
 
 function App() {
   return (

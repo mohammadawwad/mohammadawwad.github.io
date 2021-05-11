@@ -7,7 +7,7 @@ function Navigation(props) {
       <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
         <div class="container">
           <Link class="navbar-brand" to="/">
-            Web Portofolio
+            Mohammad Awwad
           </Link>
           <div>
             <ul class="navbar-nav ml-auto">
